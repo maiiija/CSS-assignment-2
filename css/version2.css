@@ -75,13 +75,9 @@ h1 {
 color: #fff;
 }
 
-h2 {
-    text-align: center;
-}
-
 article {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     align-items: center;
 }
 
@@ -91,10 +87,9 @@ section {
 }
 
 .text {
-    background: #fff;
     margin: 0;
     margin-bottom: 2rem;
-    padding: 2.5rem;
+    padding: 1rem;
     font-size: 1.2rem;
     line-height: 2rem; 
 }
